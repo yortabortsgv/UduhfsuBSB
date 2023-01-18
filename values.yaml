@@ -15,14 +15,6 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
-resources:
-  limits:
-    cpu: 150m
-    memory: 300Mi
-  requests:
-    cpu: 10m
-    memory: 50Mi
-
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
